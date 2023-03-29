@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  applocation:
+    build: ./application
+  mongo:
+    image: mongo
